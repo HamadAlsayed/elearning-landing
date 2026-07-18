@@ -18,6 +18,8 @@ import { ref } from 'vue'
 const navLinks = ref([
     { id: 1, label: 'Home', url: '/' },
     { id: 2, label: 'Courses', url: '/courses' },
-    { id: 3, label: 'About', url: '/about' },
+    { id: 3, label: 'Blog', url: '/blog' },
+    { id: 4, label: 'About', url: '/about' },
+    { id: 5, label: 'Contact', url: '/contact' },
 ])
 </script>
