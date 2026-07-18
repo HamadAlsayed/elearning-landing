@@ -1,12 +1,12 @@
 <template>
     <nav class="bg-gray-800 text-white px-6 py-4 flex items-center justify-between">
-        <div class="font-bold text-xl">MyLMS</div>
+        <div class="font-bold text-xl">e-Learning Landing Page</div>
 
         <ul class="flex gap-6">
             <li v-for="link in navLinks" :key="link.id">
-                <a :href="link.url" class="hover:text-blue-400">
+                <RouterLink :to="link.url" class="hover:text-blue-400">
                     {{ link.label }}
-                </a>
+                </RouterLink>
             </li>
         </ul>
     </nav>
